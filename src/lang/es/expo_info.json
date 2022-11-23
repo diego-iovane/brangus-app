@@ -1,0 +1,9 @@
+{
+    "title": "Expo",
+    "dates": "Del 18 al 24 de abril",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+    "img": {
+        "src": "/static/img/expo-img.png",
+        "alt": "imagen de la expo"
+    }
+}

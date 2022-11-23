@@ -1,0 +1,61 @@
+{
+    "title": "Cronograma Expo",
+    "items": [
+        {
+            "date": "24/04",
+            "day": "lunes",
+            "title": "Corrientes",
+            "details": [
+                "Check-in hotel."
+            ]
+        },
+        {
+            "date": "25/04",
+            "day": "martes",
+            "title": "Sociedad Rural de Corrientes",
+            "details": [
+                "Desayuno en el hotel y traslado a la Sociedad Rural de Corrientes.",
+                "Break.",
+                "Inicio del Juzgamiento de Terneros de Bozal.",
+                "Por la tarde traslado a Cena de apertura / Presentación de comitivas extranjeras.",
+                "Alojamiento en Corrientes."
+            ]
+        },
+        {
+            "date": "26/04",
+            "day": "miércoles",
+            "title": "Sociedad Rural de Corrientes",
+            "details": [
+                "Desayuno en el hotel y traslado a la Sociedad Rural de Corrientes.",
+                "Inicio del Juzgamiento Terneros de Lote.",
+                "Elección de Grandes Campeones Exposición del Ternero.",
+                "Break",
+                "Inicio del Juzgamiento de Bozales adultos.",
+                "Por la noche traslado al hotel.",
+                "Alojamiento en Corrientes."
+            ]
+        },
+        {
+            "date": "27/04",
+            "day": "jueves",
+            "title": "Sociedad Rural de Corrientes",
+            "details": [
+                "Desayuno en el hotel y traslado a la Sociedad Rural de Corrientes.",
+                "Jura de Lotes adultos. Elección de Grandes Campeones Adultos.",
+                "Break",
+                "Desfile de Campeones",
+                "Premiación, Cena y Venta de la Exposición.",
+                "Por la noche traslado al hotel.",
+                "Alojamiento en Corrientes."
+            ]
+        },
+        {
+            "date": "28/04",
+            "day": "viernes",
+            "title": "Corrientes",
+            "details": [
+                "Check-out hotel."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "title": "Tour Schedule",
+    "items": [
+        {
+            "date": "18/04",
+            "day": "Tuesday",
+            "title": "Posadas - Misiones",
+            "details": [
+                "Arrival to Posadas, Province of Misiones, Argentina.",
+                "Transfer to Posadas – Hotel 3*/4*.",
+                "Welcome Cocktail at 19.00 Hs."
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Location"
+        },
+        {
+            "date": "19/04",
+            "day": "Wednesday",
+            "title": "Las Marías - Virasoro, Corrientes",
+            "details": [
+                "Breakfast at the Hotel.",
+                "Lunch at the ranch. In the afternoon, bus transfer to the hotel in Corrientes City (335 Kms).",
+                "Accommodation in Corrientes City – Hotel 3*/4*.",
+                "Spend night at your leisure, dinner not included."
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Location",
+            "logo": "static/logos/marias.png"
+        },
+        {
+            "date": "20/04",
+            "day": "Thursday",
+            "title": "ITÁ SIRI - Desmochado, Corrientes",
+            "details": [
+                "Breakfast at the hotel.",
+                "Bus transfer to Ranch Itá Siri (Desmochado, Province of Corrientes - 180 Kms).",
+                "Lunch at the ranch. In the afternoon, bus transfer to the hotel in Goya, Province of Corrientes (100 Kms).",
+                "Dinner & accommodation in Goya – Hotel 3*-4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Location",
+            "logo": "static/logos/ita-siri.png"
+        },
+        {
+            "date": "21/04",
+            "day": "Friday",
+            "title": "La Victoria - Esquina, Corrientes",
+            "details": [
+                "Breakfast at the hotel.",
+                "Bus transfer to Ranch La Victoria (Esquina, Province of Corrientes - 130 Kms). Lunch at the ranch. In the afternoon, bus transfer to the hotel in Corrientes City(350 Kms).",
+                "Almuerzo en la cabaña. Por la tarde traslado en bus a Corrientes (350 Kms. aprox.).",
+                "Accommodation in Corrientes City – Hotel 3*/4*",
+                "Spend night at your leisure, dinner not included."
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Location",
+            "logo": "static/logos/victoria.png"
+        },
+        {
+            "date": "22/04",
+            "day": "Saturday",
+            "title": "El Bagual - Presidente Yrigoyen, Formosa",
+            "details": [
+                "Breakfast at the hotel.",
+                "Bus transfer to Estancia El Bagual (Presidente Yrigoyen, Province of Formosa – 215 Kms).",
+                "Lunch in the ranch. In the afternoon, bus transfer to the hotel in Formosa City (90 Kms).",
+                "Dinner at accommodation in Formosa City – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Location",
+            "logo": "static/logos/bagual.png"
+        },
+        {
+            "date": "23/04",
+            "day": "Sunday",
+            "title": "La Leonor - Presidencia Roca, Chaco",
+            "details": [
+                "Breakfast at the hotel.",
+                "Bus transfer to Estancia La Leonor (Presidencia Roca, Province of Chaco – 200 Kms).",
+                "Lunch at the ranch. In the afternoon, bus transfer to the hotel in Villa Ángela, Province of Chaco (240 Kms).",
+                "Closing Buffet & accommodation in Villa Ángela – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Location",
+            "logo": "static/logos/lilas.png"
+        },
+        {
+            "date": "24/04",
+            "day": "Monday",
+            "title": "Los Guasunchos - Santa Margarita, Santa Fe",
+            "details": [
+                "Breakfast at the hotel.",
+                "Bus transfer to Ranch Los Guasunchos (Santa Margarita, Province of Santa Fe - 130 Kms).",
+                "Lunch at the ranch. In the afternoon, bus transfer to the hotel in Corrientes City (465 Kms).",
+                "Dinner on the road (Machagai).",
+                "Accommodation in Corrientes City – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Location",
+            "logo": "static/logos/guasunchos.png"
+        }
+    ]
+}

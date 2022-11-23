@@ -1,0 +1,62 @@
+{
+    "title": "Exhibition Schedule",
+    "items": [
+        {
+            "date": "24/04",
+            "day": "Monday",
+            "title": "Corrientes",
+            "details": [
+                "Check-in hotel."
+            ]
+        },
+        {
+            "date": "25/04",
+            "day": "Tuesday",
+            "title": "Sociedad Rural de Corrientes",
+            "details": [
+                "Breakfast at the hotel and transfer to Corrientes Exhibition Fairground.",
+                "Break.",
+                "Calves Show.",
+                "In the afternoon, transfer to Opening Dinner / Presentation of Associations.",
+                "Accommodation in Corrientes City."
+            ]
+        },
+        {
+            "date": "26/04",
+            "day": "Wednesday",
+            "title": "Sociedad Rural de Corrientes",
+            "details": [
+                "Breakfast at the hotel and transfer to Corrientes Exhibition Fairground",
+                "Calves judging.",
+                "Calves championship.",
+                "Break",
+                "Bull Show.",
+                "In the afternoon, transfer to the hotel.",
+                "Accommodation in Corrientes City."
+            ]
+        },
+        {
+            "date": "27/04",
+            "day": "Thursday",
+            "title": "Sociedad Rural de Corrientes",
+            "details": [
+                "Breakfast at the hotel and transfer to Corrientes Exhibition Fairground.",
+                "Bull judging.",
+                "Bull Grand Championship.",
+                "Break",
+                "Champions Parade.",
+                "Dinner and Exhibition Auction.",
+                "In the afternoon, transfer to the hotel.",
+                "Accommodation in Corrientes City."
+            ]
+        },
+        {
+            "date": "28/04",
+            "day": "Friday",
+            "title": "Corrientes",
+            "details": [
+                "Breakfast & Check-out."
+            ]
+        }
+    ]
+}

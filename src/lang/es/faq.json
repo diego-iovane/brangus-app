@@ -1,0 +1,32 @@
+{
+    "faq": [
+        {
+            "id": 1,
+            "q": "Forma de pago",
+            "a": [
+                "Para confirmar la reserva se solicita una seña del X% y el saldo total debe estar abonado antes del MIÉRCOLES 01 MARZO.",
+                "De no realizar el pago para esa fecha se dará de baja la reserva, sin excepciones y sin devolución de la seña."
+            ],
+            "icon": "/static/icons/arrow.png"
+        },
+        {
+            "id": 2,
+            "q": "Medios de pago",
+            "a": [
+                "Tarjeta de Crédito Visa o Mastercard – Solicitar link de pago.",
+                "Transferencia bancaria en pesos – Solicitar datos de cuenta."
+            ],
+            "icon": "/static/icons/arrow.png"
+        },
+        {
+            "id": 3,
+            "q": "Política de cancelación",
+            "a": [
+                "Hasta el 18/02/23. Cancelación sin penalidad. El dinero abonado quedará como saldo a favor",
+                "Hasta el 18/03/23. Cancelación con penalidad del 50%. El resto del dinero abonado quedará como saldo a favor.",
+                "A partir del 01/04/23. Cancelación con penalidad del 100%."
+            ],
+            "icon": "/static/icons/arrow.png"
+        }
+    ]
+}

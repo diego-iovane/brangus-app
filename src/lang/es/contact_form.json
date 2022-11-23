@@ -1,0 +1,15 @@
+{
+    "title": "Contacto",
+    "text": "Contacto - Mundial Brangus 2023",
+    "name": "Nombre",
+    "phone": "Número de contacto",
+    "email": "E-mail",
+    "msj": "Mensaje",
+    "optional": "Opcional",
+    "send": "Enviar",
+    "sent": "Enviado",
+    "contact": "Detalles de contacto",
+    "general-error": "Hay campos incompletos",
+    "sent-message": "Gracias por su mensaje. A la brevedad nos pondremos en contacto.",
+    "error-message": "Algo salió mal. Por favor, vuelva a intentarlo."
+}

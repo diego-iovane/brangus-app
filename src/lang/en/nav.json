@@ -1,0 +1,16 @@
+{
+    "links": [
+        {
+            "title": "Tour",
+            "url": "#tour"
+        },
+        {
+            "title": "Exhibition",
+            "url": "#expo"
+        },
+        {
+            "title": "Contact",
+            "url": "#contact"
+        }
+    ]
+}

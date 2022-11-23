@@ -1,0 +1,94 @@
+{
+    "title": "Cronograma Gira",
+    "items": [
+        {
+            "date": "18/04",
+            "day": "martes",
+            "title": "Posadas - Misiones",
+            "details": [
+                "Traslado al hotel y alojamiento en Posadas.",
+                "Cocktail de Bienvenida 19 Hs. – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Ubicacion"
+        },
+        {
+            "date": "19/04",
+            "day": "miércoles",
+            "title": "Las Marías - Virasoro, Corrientes",
+            "details": [
+                "Desayuno en el hotel y comienzo de la gira. Traslado en bus a Establecimiento Las Marías en la localidad de Virasoro, Provincia de Corrientes (100kms apróx).",
+                "Almuerzo en la cabaña. Por la tarde traslado en bus a la ciudad de Corrientes (335kms apróx).",
+                "Alojamiento en Corrientes – Hotel 3*/4* (no incluye cena)"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Ubicacion",
+            "logo": "static/logos/marias.png"
+        },
+        {
+            "date": "20/04",
+            "day": "jueves",
+            "title": "ITÁ SIRI - Desmochado, Corrientes",
+            "details": [
+                "Desayuno. Traslado en bus a Cabaña Itá Siri en la localidad de Desmochado, Provincia de Corrientes (180 Kms. aprox.).",
+                "Almuerzo en la cabaña. Por la tarde traslado en bus a Goya, Provincia de Corrientes (100kms apróx).",
+                "Cena y alojamiento en Goya – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Ubicacion",
+            "logo": "static/logos/ita-siri.png"
+        },
+        {
+            "date": "21/04",
+            "day": "viernes",
+            "title": "La Victoria - Esquina, Corrientes",
+            "details": [
+                "Desayuno. Traslado en bus a Cabaña La Victoria en la localidad de Esquina, Provincia de Corrientes (130 Kms. aprox.).",
+                "Almuerzo en la cabaña. Por la tarde traslado en bus a Corrientes (350 Kms. aprox.).",
+                "Alojamiento en Corrientes – Hotel 3*/4* (no incluye cena)"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Ubicacion",
+            "logo": "static/logos/victoria.png"
+        },
+        {
+            "date": "22/04",
+            "day": "sábado",
+            "title": "El Bagual - Presidente Yrigoyen, Formosa",
+            "details": [
+                "Desayuno. Traslado en bus a Estancia El Bagual en la localidad de Presidente Yrigoyen, Provincia de Formosa (215 Kms. aprox.).",
+                "Almuerzo en la cabaña. Por la tarde traslado en bus a la ciudad de Formosa (90Kms. aprox.).",
+                "Cena y alojamiento en Formosa – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Ubicacion",
+            "logo": "static/logos/bagual.png"
+        },
+        {
+            "date": "23/04",
+            "day": "domingo",
+            "title": "La Leonor - Presidencia Roca, Chaco",
+            "details": [
+                "Desayuno. Traslado en bus a Estancia La Leonor en la localidad de Presidencia Roca, Provincia del Chaco (200 Kms. aprox.).",
+                "Almuerzo en la cabaña. Por la tarde traslado en bus a Villa Ángela, Provincia del Chaco (240 Kms. aprox.).",
+                "Cena Buffet y alojamiento en Villa Ángela – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Ubicacion",
+            "logo": "static/logos/lilas.png"
+        },
+        {
+            "date": "24/04",
+            "day": "lunes",
+            "title": "Los Guasunchos - Santa Margarita, Santa Fe",
+            "details": [
+                "Desayuno. Traslado en bus a Cabaña Los Guasunchos en la localidad de Santa Margarita, Provincia de Santa Fe (200 Kms. aprox.).",
+                "Almuerzo en la cabaña. Por la tarde traslado en bus a la ciudad de Corrientes (465 Kms. aprox.). Cena durante el viaje (Machagai).",
+                "Alojamiento en Corrientes – Hotel 3*/4*"
+            ],
+            "icon": "/static/icons/location-icon.png",
+            "location": "Ubicacion",
+            "logo": "static/logos/guasunchos.png"
+        }
+    ]
+}

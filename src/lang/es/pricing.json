@@ -1,0 +1,89 @@
+{
+    "packs": [
+        {
+            "pack": "Pack 1",
+            "title": "Gira y exposición",
+            "date": "Del 18/04 al 28/04",
+            "detailsOneTitle": "Gira incluye:",
+            "detailsOne": [
+                "Traslados en Bus a las cabañas por 6 días.",
+                "Alojamiento por 6 noches.",
+                "Gastronomía: 6 desayunos, 6 almuerzos y 4 cenas."
+            ],
+            "detailsTwoTitle": "Exposición incluye:",
+            "detailsTwo": [
+                "Traslados en combi a la mañana desde el hotel a la Sociedad Rural por 3 días.",
+                "Traslados en combi a la tarde/noche desde la Sociedad Rural por 3 días.",
+                "Alojamiento por 4 noches.",
+                "Gastronomía: Cena de apertura, 4 desayunos y Cena de cierre."
+            ],
+            "prices": [
+                {
+                    "price": "U$D 1780",
+                    "date": "Hasta el 15/12/22"
+                },
+                {
+                    "price": "U$D 1880",
+                    "date": "Hasta el 15/02/23"
+                },
+                {
+                    "price": "U$D 1980",
+                    "date": "Hasta el 30/03/23"
+                }
+            ],
+            "note": "*por persona"
+        },
+        {
+            "pack": "Pack 2",
+            "title": "Gira",
+            "date": "Del 18/04 al 24/04",
+            "detailsOneTitle": "Gira incluye:",
+            "detailsOne": [
+                "Traslados en Bus a las cabañas por 6 días.",
+                "Alojamiento por 6 noches.",
+                "Gastronomía: 6 desayunos, 6 almuerzos y 4 cenas."
+            ],
+            "prices": [
+                {
+                    "price": "U$D 970",
+                    "date": "Hasta el 15/12/22"
+                },
+                {
+                    "price": "U$D 1.020",
+                    "date": "Hasta el 15/02/23"
+                },
+                {
+                    "price": "U$D 1.080.",
+                    "date": "Hasta el 30/03/23"
+                }
+            ],
+            "note": "*por persona"
+        },
+        {
+            "pack": "Pack 3",
+            "title": "Expo",
+            "date": "Del 24/04 al 28/04",
+            "detailsTwoTitle": "Exposición incluye:",
+            "detailsTwo": [
+                "Alojamiento por 4 noches.",
+                "Gastronomía: Cena de apertura, 4 desayunos y Cena de cierre."
+            ],
+            "prices": [
+                {
+                    "price": "U$D 810",
+                    "date": "Hasta el 15/12/22"
+                },
+                {
+                    "price": "U$D 860",
+                    "date": "Hasta el 15/02/23"
+                },
+                {
+                    "price": "U$D 900",
+                    "date": "Hasta el 30/03/23"
+                }
+            ],
+            "note": "*por persona"
+        }
+    ],
+    "globalNote": "*Tarifa expresada en dólares estadounidenses, por persona en base doble. Consultar por tarifas en base simple o triple. En caso de no solicitar bus para la gira descontar USD 80. En caso de no necesitar traslados a la Sociedad Rural descontar USD 20."
+}

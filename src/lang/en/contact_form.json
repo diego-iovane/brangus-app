@@ -1,0 +1,15 @@
+{
+    "title": "Contact",
+    "text": "Contact - World Brangus Congress 2023",
+    "name": "Name",
+    "phone": "Phone number",
+    "email": "E-mail",
+    "optional": "Optional",
+    "msj": "Messaje",
+    "send": "Send",
+    "sent": "Sent",
+    "contact": "Contact details",
+    "general-error": "Uncompleted fields",
+    "sent-message": "Thank you for contact us. As soon as possible we will contact.",
+    "error-message": "Something went wrong, please try again."
+}

@@ -1,0 +1,32 @@
+{
+    "faq": [
+        {
+            "id": 1,
+            "q": "Payment",
+            "a": [
+                "A payment of 50% of the total is requested as confirmation, with the remaining balance to be paid before MARCH 1ST.",
+                "If the payment is not made, the reservation will be canceled without exceptions, and the payment will not be returned."
+            ],
+            "icon": "/static/icons/arrow.png"
+        },
+        {
+            "id": 2,
+            "q": "Payment Methods",
+            "a": [
+                "Credit Card Visa or MasterCard – Request payment link.",
+                "Bank Transfer – Request account information."
+            ],
+            "icon": "/static/icons/arrow.png"
+        },
+        {
+            "id": 3,
+            "q": "Cancellation policies",
+            "a": [
+                "Until 02/18/2023 – Cancellation without penalty. The payment will remain as a balance in favor.",
+                "Until 03/18/23 – Cancellation with penalty of 50%. The payment difference will remain as a balance in favor.",
+                "From 04/01/23 – Cancellation with penalty of 100%."
+            ],
+            "icon": "/static/icons/arrow.png"
+        }
+    ]
+}

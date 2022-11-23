@@ -1,0 +1,442 @@
+[debug] [2022-11-08T18:37:39.926Z] ----------------------------------------------------------------------
+[debug] [2022-11-08T18:37:39.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dei\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-11-08T18:37:39.932Z] CLI Version:   11.16.0
+[debug] [2022-11-08T18:37:39.932Z] Platform:      win32
+[debug] [2022-11-08T18:37:39.933Z] Node Version:  v16.15.1
+[debug] [2022-11-08T18:37:39.936Z] Time:          Tue Nov 08 2022 15:37:39 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-11-08T18:37:39.937Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-08T18:37:40.165Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-08T18:37:40.167Z] > authorizing via signed-in user (brangus.app@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-11-08T18:37:40.221Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-08T18:37:40.223Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-11-08T18:37:40.252Z] [hub] writing locator at C:\Users\dei\AppData\Local\Temp\hub-brangus-app.json
+[debug] [2022-11-08T18:37:40.385Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-08T18:37:40.386Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-08T18:37:40.386Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-11-08T18:37:40.548Z] defaultcredentials: writing to file C:\Users\dei\AppData\Roaming\firebase\brangus_app_gmail.com_application_default_credentials.json
+[debug] [2022-11-08T18:37:40.590Z] Setting GAC to C:\Users\dei\AppData\Roaming\firebase\brangus_app_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dei\\AppData\\Roaming\\firebase\\brangus_app_gmail.com_application_default_credentials.json"}}
+[debug] [2022-11-08T18:37:40.600Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/brangus-app/adminSdkConfig [none]
+[debug] [2022-11-08T18:37:41.046Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/brangus-app/adminSdkConfig 200
+[debug] [2022-11-08T18:37:41.047Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/brangus-app/adminSdkConfig {"projectId":"brangus-app","storageBucket":"brangus-app.appspot.com","locationId":"southamerica-east1"}
+[info] i  ui: downloading ui-v1.11.1.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.1.zip..."}}
+[debug] [2022-11-08T18:37:41.149Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip 
+[debug] [2022-11-08T18:37:41.509Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip 200
+[debug] [2022-11-08T18:37:41.509Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip [stream]
+[info] i  ui: Removing outdated emulator files: ui-v1.5.0 {"metadata":{"emulator":{"name":"ui"},"message":"Removing outdated emulator files: ui-v1.5.0"}}
+[info] i  ui: Removing outdated emulator files: ui-v1.5.0.zip {"metadata":{"emulator":{"name":"ui"},"message":"Removing outdated emulator files: ui-v1.5.0.zip"}}
+[debug] [2022-11-08T18:37:44.101Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-08T18:37:44.101Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-11-08T18:37:44.102Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\dei\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\dei\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-11-08T18:37:44.924Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-11-08T18:37:44.925Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\dei\Desktop\Brangus\brangus-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\" for Cloud Functions..."}}
+[debug] [2022-11-08T18:37:45.090Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T18:37:49.665Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T18:37:49.666Z] Building nodejs source
+[debug] [2022-11-08T18:37:49.666Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T18:37:49.669Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T18:37:50.531Z] Serving at port 9005
+
+[debug] [2022-11-08T18:37:50.745Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T18:37:50.773Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-11-08T19:21:43.485Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T19:21:44.499Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T19:21:50.384Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T19:21:50.384Z] Building nodejs source
+[debug] [2022-11-08T19:21:50.384Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T19:21:50.386Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T19:21:51.221Z] Serving at port 9005
+
+[debug] [2022-11-08T19:21:51.266Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared
+[debug] [2022-11-08T19:21:51.273Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Identifier 'functions' has alr ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Identifier 'functions' has alr ... \n                                         ^"}
+[debug] [2022-11-08T19:21:51.281Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared"}}
+[debug] [2022-11-08T19:21:56.988Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T19:21:57.998Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T19:22:01.094Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T19:22:01.095Z] Building nodejs source
+[debug] [2022-11-08T19:22:01.095Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T19:22:01.097Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T19:22:01.949Z] Serving at port 9005
+
+[debug] [2022-11-08T19:22:01.999Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared
+[debug] [2022-11-08T19:22:01.999Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Identifier 'functions' has alr ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Identifier 'functions' has alr ... \n                                         ^"}
+[debug] [2022-11-08T19:22:02.009Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Identifier 'functions' has already been declared"}}
+[debug] [2022-11-08T19:22:51.455Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T19:22:52.461Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T19:22:56.124Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T19:22:56.125Z] Building nodejs source
+[debug] [2022-11-08T19:22:56.125Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T19:22:56.127Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T19:22:57.306Z] Serving at port 9005
+
+[debug] [2022-11-08T19:22:57.958Z] Got response from /__/functions.yaml {"endpoints":{"sendEmail":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"sendEmail"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T19:22:57.992Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: sendEmail. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendEmail."}}
+[info] +  functions[us-central1-sendEmail]: http function initialized (http://127.0.0.1:5001/brangus-app/us-central1/sendEmail). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/brangus-app/us-central1/sendEmail)."}}
+[debug] [2022-11-08T19:31:24.550Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T19:31:25.568Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T19:31:31.320Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T19:31:31.321Z] Building nodejs source
+[debug] [2022-11-08T19:31:31.321Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T19:31:31.322Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T19:31:32.141Z] Serving at port 9005
+
+[debug] [2022-11-08T19:31:32.570Z] Got response from /__/functions.yaml {"endpoints":{"sendEmail":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"sendEmail"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T19:31:32.595Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: sendEmail. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendEmail."}}
+[debug] [2022-11-08T19:34:51.006Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T19:34:52.038Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T19:35:03.446Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T19:35:03.447Z] Building nodejs source
+[debug] [2022-11-08T19:35:03.447Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T19:35:03.449Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T19:35:07.756Z] Serving at port 9005
+
+[debug] [2022-11-08T19:35:09.009Z] Got response from /__/functions.yaml {"endpoints":{"sendEmail":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"sendEmail"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T19:35:09.083Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: sendEmail. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendEmail."}}
+[debug] [2022-11-08T19:36:28.037Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T19:36:29.046Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T19:36:34.040Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T19:36:34.041Z] Building nodejs source
+[debug] [2022-11-08T19:36:34.041Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T19:36:34.043Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T19:36:35.132Z] Serving at port 9005
+
+[debug] [2022-11-08T19:36:35.823Z] Got response from /__/functions.yaml {"endpoints":{"sendEmail":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"sendEmail"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T19:36:35.859Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: sendEmail. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendEmail."}}
+[debug] [2022-11-08T20:24:08.905Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T20:24:09.917Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T20:25:06.165Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T20:25:06.165Z] Building nodejs source
+[debug] [2022-11-08T20:25:06.166Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T20:25:06.167Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T20:25:20.722Z] Serving at port 9005
+
+[debug] [2022-11-08T20:25:23.224Z] Got response from /__/functions.yaml {"endpoints":{"sendEmail":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"sendEmail"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T20:25:23.301Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: sendEmail. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendEmail."}}
+[debug] [2022-11-08T20:39:21.978Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T20:39:23.037Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T20:39:36.130Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T20:39:36.130Z] Building nodejs source
+[debug] [2022-11-08T20:39:36.130Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T20:39:36.158Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T20:39:40.473Z] Serving at port 9005
+
+[debug] [2022-11-08T20:39:41.449Z] Got response from /__/functions.yaml {"endpoints":{"sendEmail":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"sendEmail"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T20:39:41.515Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: sendEmail. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendEmail."}}
+[debug] [2022-11-08T20:43:41.966Z] File C:\Users\dei\Desktop\Brangus\brangus-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\dei\\Desktop\\Brangus\\brangus-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-11-08T20:43:42.981Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-08T20:43:51.541Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-11-08T20:43:51.542Z] Building nodejs source
+[debug] [2022-11-08T20:43:51.543Z] Analyzing nodejs backend spec
+[debug] [2022-11-08T20:43:51.550Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-08T20:44:08.246Z] Serving at port 9005
+
+[debug] [2022-11-08T20:44:10.034Z] Got response from /__/functions.yaml {"endpoints":{"sendEmail":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"sendEmail"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-08T20:44:10.166Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: sendEmail. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendEmail."}}
+[debug] [2022-11-09T01:29:16.533Z] Received signal SIGHUP 1

@@ -1,0 +1,89 @@
+{
+    "packs": [
+        {
+            "pack": "Pack 1",
+            "title": "TOUR & EXHIBITION",
+            "date": "18/04 until 28/04",
+            "detailsOneTitle": "Tour includes:",
+            "detailsOne": [
+                "Two-way Bus Transfer to the ranches during all 6 days of the tour.",
+                "Hotel accommodations for 6 nights (3*/4* Hotels).",
+                "Meals: Welcome Cocktail, 6 breakfasts, 6 lunches, 4 dinners (dinners on April 19th and April 21th not included)"
+            ],
+            "detailsTwoTitle": "Exhibition includes:",
+            "detailsTwo": [
+                "Transfers in the morning from the Hotel to the Sociedad Rural de Corrientes (Corrientes Exhibition Fairgrounds) and back to the Hotel in the afternoon/evening - during 4 days.",
+                "Hotel accommodations for 4 nights (4* Hotel).",
+                "Meals: 4 breakfasts, 4 lunches at the Sociedad Rural de Corrientes, and Closing Dinner"
+            ],
+            "prices": [
+                {
+                    "price": "U$D 1780",
+                    "date": "Until 15/12/22"
+                },
+                {
+                    "price": "U$D 1880",
+                    "date": "Until 15/02/23"
+                },
+                {
+                    "price": "U$D 1980",
+                    "date": "Until 30/03/23"
+                }
+            ],
+            "note": "*per person"
+        },
+        {
+            "pack": "Pack 2",
+            "title": "Tour",
+            "date": "18/04 until 24/04",
+            "detailsOneTitle": "Tour includes:",
+            "detailsOne": [
+                "Two-way Bus Transfer to the ranches during all 6 days of the tour.",
+                "Hotel accommodations for 6 nights (3*/4* Hotels).",
+                "Meals: Welcome Cocktail, 6 breakfasts, 6 lunches, 4 dinners (dinners on April 19th and April 21th not included)"
+            ],
+            "prices": [
+                {
+                    "price": "U$D 970",
+                    "date": "Until 15/12/22"
+                },
+                {
+                    "price": "U$D 1.020",
+                    "date": "Until 15/02/23"
+                },
+                {
+                    "price": "U$D 1.080.",
+                    "date": "Until 30/03/23"
+                }
+            ],
+            "note": "*per person"
+        },
+        {
+            "pack": "Pack 3",
+            "title": "Exhibition",
+            "date": "24/04 until 28/04",
+            "detailsTwoTitle": "Exhibition includes:",
+            "detailsTwo": [
+                "Transfers in the morning from the Hotel to the Sociedad Rural de Corrientes (Corrientes Exhibition Fairgrounds) and back to the Hotel in the afternoon/evening - during 4 days.",
+                "Hotel accommodations for 4 nights (4* Hotel).",
+                "Meals: 4 breakfasts, 4 lunches at the Sociedad Rural de Corrientes, and Closing Dinner"
+            ],
+            "prices": [
+                {
+                    "price": "U$D 810",
+                    "date": "Until 15/12/22"
+                },
+                {
+                    "price": "U$D 860",
+                    "date": "Until 15/02/23"
+                },
+                {
+                    "price": "U$D 900",
+                    "date": "Until 30/03/23"
+                }
+            ],
+            "note": "*per person"
+        }
+    ],
+    "globalNote": "*Rates expressed in US Dollars, per person based on double room. *Feel free to ask on rates for single or triple rooms.*In case you don´t need the transfer in the tour, please discount U$D80. * In case you don´t need the transfers between the Hotel and the Sociedad Rural de Corrientes, please discount U$D20."
+}
